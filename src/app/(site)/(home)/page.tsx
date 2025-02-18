@@ -1,6 +1,5 @@
+import HomeSections from "@/components/pages/HomeSections";
 
-const page = () => {
-  return <div>page</div>;
-};
+const page = () => <HomeSections />;
 
 export default page;
