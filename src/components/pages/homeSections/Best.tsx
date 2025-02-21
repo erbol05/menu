@@ -45,7 +45,7 @@ const Best: FC = () => {
     const scrollRight = () => {
         if (productContainerRef.current) {
             productContainerRef.current.scrollBy({
-                left: 400,
+                left: 400,  
                 behavior: "smooth",
             });
         }
