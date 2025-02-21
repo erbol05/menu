@@ -4,6 +4,7 @@ import Image from 'next/image';
 import icons from '../../../assets/img/Frame 10.png'
 import text from '../../../assets/img/Visit Restaurant.png'
 import Map from '../../../assets/img/image 22.png'
+import Map2 from '../../../assets/img/Frame 291.png'
 import { FaArrowRight } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
 import { BsEnvelope } from "react-icons/bs";
@@ -35,6 +36,9 @@ const page: FC = () => {
                                 <h5>Mon-Thu: 10:00 am - 01:00 am</h5>
                                 <h5>Fri-Sun: 10:00 am - 02:00 am</h5>
                             </div>
+                            <div className={scss.visitMap}>
+                                <Image src={Map2} alt='map' />
+                            </div>
                             <button>Purchase gift card <FaArrowRight /></button>
                         </div>
                     </div>
@@ -49,7 +53,7 @@ const page: FC = () => {
                             <a href="https://www.instagram.com/"><AiFillInstagram /></a>
                         </div>
                         <div className={scss.mapCard}>
-                            <Image src={Map} alt='map'className={scss.map}/>
+                            <Image src={Map} alt='map' className={scss.map} />
                         </div>
                     </div>
                 </div>
