@@ -4,6 +4,7 @@ import About from "./homeSections/About";
 import Best from "./homeSections/Best";
 import ScrollToElement from "./homeSections/Best";
 import Main from "./homeSections/Main";
+import Interior from "./homeSections/Interior";
 
 const HomeSections = () => {
     return (
@@ -12,6 +13,7 @@ const HomeSections = () => {
             <About />
             <Best />
             <Main />
+            <Interior />
         </div>
     );
 };
